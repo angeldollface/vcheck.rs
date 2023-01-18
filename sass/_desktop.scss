@@ -1,0 +1,142 @@
+/*
+VCHECK.RS by Alexander Abraham, a.k.a. "Angel Dollface".
+Licensed under the MIT license.
+*/
+
+/* This file styles the desktop view of VCheck.rs. */
+
+html, body {
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(
+     135deg,
+     $mainColor,
+     $gradientColorThree
+    );
+}
+div.content {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    background: linear-gradient(
+      45deg,
+      $gradientColorTwo,
+      $gradientColorOne
+    );
+    padding: $stdPadding;
+    margin-top: 20vh;
+    margin-bottom: 30px;
+    border-radius: $stdBorderRadius;
+    border: 3px solid $fontColor;
+}
+h1 {
+    text-align: center;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: $stdPadding;
+    font-size: $headingFontSize;
+    color: $fontColor;
+    font-family: $headingFont;
+}
+input {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom:$stdPadding;
+    font-size: $contenFontSize;
+    color: $fontColor;
+    font-family: $headingFont;
+    background-color: $gradientColorOne;
+    border: 3px solid $fontColor;
+    border-radius: $stdBorderRadius;
+}
+input:focus {
+    outline: none;
+}
+button {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    width: 83%;
+    text-align: center;
+    padding: $stdPadding;
+    font-size: $contenFontSize;
+    font-family: $headingFont;
+    border: none;
+    border-radius: $stdBorderRadius;
+    background-color: $fontColor;
+    color: $extraColor;
+    transition-duration: 0.6s;
+}
+  button:hover {
+    background: linear-gradient(
+     45deg,
+     $mainColor,
+     $gradientColorThree
+    );
+    color: $fontColor;
+}
+ul {
+    margin: 0 auto;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: $stdPadding !important;
+    width: 83%;
+    padding: 0px;
+}
+p {
+    font-family: $headingFont;
+    color: $fontColor;
+    font-size: $contenFontSize;
+    padding-top: 0px;
+    padding-bottom: $stdPadding;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 0px;
+}
+a {
+    font-family: $headingFont;
+    color: $fontColor;
+    font-size: $contenFontSize;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: underline;
+    transition-duration: 0.6s;
+}
+a:hover {
+    color: $mainColor;
+}
+div.footer {
+    width: 100vw;
+    border-top: 3px solid $fontColor;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0px;
+    padding: 10px;
+    position: fixed;
+    background-color: transparent;
+}
+p.footer {
+    font-family: $headingFont;
+    color: $fontColor;
+    font-size: $contenFontSize;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-style: italic;
+}

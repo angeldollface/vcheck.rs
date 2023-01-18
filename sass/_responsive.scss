@@ -1,0 +1,31 @@
+/*
+VCHECK.RS by Alexander Abraham, a.k.a. "Angel Dollface".
+Licensed under the MIT license.
+*/
+
+/* This file styles the responsive view of VCheck.rs. */
+
+@media screen and (max-width: 800px){
+    $headingFontSize: 30px;
+    $contenFontSize: 25px;
+    div.content {
+      margin-top: 20vh;
+    }
+    h1 {
+      font-size: $headingFontSize;
+    }
+    input {
+      width: 80%;
+      font-size: $contenFontSize;
+    }
+    button {
+      width: 85%;
+      font-size: $contenFontSize;
+    }
+    p {
+      font-size: $contenFontSize;
+    }
+    p.footer {
+      font-size: $contenFontSize;
+    }
+}
