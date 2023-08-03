@@ -2,8 +2,6 @@
 
 ***My Rustacean implementation of my password checker, VCheck. :ribbon: :rocket: :crab:***
 
-![GitHub CI](https://github.com/angeldollface/vcheck.rs/actions/workflows/yew.yml/badge.svg)
-
 ## ABOUT :books:
 
 A year ago I decided to design and implement an algorithm that checks the strength of a password. The links to these implementations can be found in the section below. This repository contains the source code for my re-implementation of a web app that checks yoiur password in Rust and Yew. Enjoy. :heart_on_fire:
