@@ -13,8 +13,6 @@ jobs:
       - uses: jetli/trunk-action@v0.4.0
       - uses: jetli/wasm-bindgen-action@v0.2.0
       - uses: actions/checkout@v2
-      - name: "Install packages."
-        run: sudo apt install cmake
       - name: "Compiling Yew application."
         run: trunk --config trunk.toml build --release
       - name: "Deploy"
