@@ -21,7 +21,7 @@ To view a live deployed version of this project, click here: [VIEW](https://ange
 
 ## USAGE :hammer:
 
-To use *VCheck.rs*, simply type in one of the passwords you use, press the button and wait. My algorithm will tell you if your password is secure or not. The app will tell you how high you ranked according to *VCheck.rs*'s algorithm and if the score is greater than eight, the algorithm deems your password to be secure. That's it. :heart_on_fire:
+To use *VCheck.rs*, simply type in one of the passwords you use, press the button and wait. My algorithm will tell you if your password is secure or not. The app will tell you how high you ranked according to *VCheck.rs*'s algorithm and if the score is greater than eight, the algorithm deems your password to be secure. :heart_on_fire:
 
 ## TRY THE CODE FOR YOURSELF! :inbox_tray:
 
@@ -67,7 +67,7 @@ trunk --config trunk.toml build --release
 
 ## CHANGELOG :black_nib:
 
-### Version 1.0.0
+### Version 0.1.0
 
 - Initial release.
 - Upload to GitHub.

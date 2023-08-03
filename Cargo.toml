@@ -1,6 +1,6 @@
 [package]
 name = "vcheck-rs"
-version = "1.0.0"
+version = "0.1.0"
 edition = "2021"
 license = "MIT"
 authors = ["Angel Dollface"]
@@ -14,9 +14,9 @@ categories = ["web-app"]
 exclude = ["/.github"]
 
 [dependencies]
-gloo = "0.8.0"
+gloo = "0.9.0"
+flek = "1.4.0"
 wasm-bindgen = "0.2.83"
 yew = { version = "0.20.0", features = ["csr"] }
 getrandom = { version = "0.2", features = ["js"] }
-flek = { git = "https://github.com/angeldollface/flek" }
 web-sys = { version = "0.3.60", features = [ "HtmlInputElement" ] }

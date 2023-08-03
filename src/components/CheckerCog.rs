@@ -79,13 +79,26 @@ pub fn CheckerCog() -> Html {
         // We make a closure to interact with our variables
         // when a button is clicked.
         move |_| {
-
-            number_result_clone.set(password_strength(&user_pwd).to_string());
+            let mut strength: usize = 0;
+            let mut sec_stat: bool = false;
+            match password_strength(&user_pwd){
+                Ok(score) => {
+                    strength = score;
+                },
+                Err(_e) => {}
+            };
+            match is_secure(&user_pwd){
+                Ok(status) => {
+                    sec_stat = status;
+                },
+                Err(_e) => {}
+            };
+            number_result_clone.set(strength.to_string());
             pwd_suggestion_clone.set(generate_password(&8));
 
             // Is it a strong password? 
             // We update "result" accordingly.
-            if is_secure(&user_pwd.to_string()) {
+            if sec_stat {
                 bool_result_clone.set(String::from("Yes."));
             }
 
