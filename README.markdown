@@ -1,5 +1,7 @@
 # VCHECK.RS :ribbon: :rocket: :crab:
 
+![VCheck.rs CI](https://github.com/angeldollface/vcheck.rs/actions/workflows/yew.yml/badge.svg)
+
 ***My Rustacean implementation of my password checker, VCheck. :ribbon: :rocket: :crab:***
 
 ## ABOUT :books:
