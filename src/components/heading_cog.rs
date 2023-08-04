@@ -3,11 +3,11 @@ VCHECK.RS by Alexander Abraham, a.k.a. "Angel Dollface".
 Licensed under the MIT license.
 */
 
-// We load Yew's APIs.
+/// We load Yew's APIs.
 use yew::prelude::*;
 
-// We define the heading
-// component.
+/// We define the heading
+/// component.
 #[function_component]
 pub fn HeadingCog () -> Html {
 
