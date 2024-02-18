@@ -13,11 +13,11 @@ A year ago I decided to design and implement an algorithm that checks the streng
 - Library implementation in ECMA Script: [VIEW](https://github.com/angeldollface/vulcheck)
 - Library implementation in Rust: [VIEW](https://github.com/angeldollface/flek)
 - Web app implementation in Vue.js: [VIEW](https://github.com/angeldollface/vcheck)
-- Dart library: [VIEW](https://angeldollface/securitycheck)
+- Dart library: [VIEW](https://github.com/angeldollface/securitycheck)
 
 ## DEPLOYED PROJECT ON GITHUB PAGES :rocket:
 
-To view a live deployed version of this project, click here: [VIEW](https://angeldollface.art/vcheck.rs)
+To view a live deployed version of this project, click here: [VIEW](https://angeldollface.boo/vcheck.rs)
 
 ## USAGE :hammer:
 
